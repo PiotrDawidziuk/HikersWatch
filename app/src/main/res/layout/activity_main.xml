@@ -31,7 +31,7 @@
         tools:textColor="@android:color/white" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/latTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/longTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -50,10 +50,10 @@
         android:text="Longitude: 40,1212313"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/latTextView" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/accTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -61,10 +61,10 @@
         android:text="Accuracy: 420"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/longTextView" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/altTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -72,10 +72,10 @@
         android:text="Altitude: 20"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/accTextView" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/addTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -83,6 +83,6 @@
         android:text=" Address: \n Ul. Nowa 33 \n 12-123 Warszawa"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/altTextView" />
 
 </android.support.constraint.ConstraintLayout>
